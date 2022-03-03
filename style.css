@@ -7,10 +7,14 @@ ul, li {
     border: 1px solid black;
     padding: 5px 10px;
 }
+
+section {
+    height: 150px;
+}
+
 .font1 {
     font-size: xx-large;
     font-weight: bold;
-    background-color: rosybrown;
 }
 
 .font2 {
