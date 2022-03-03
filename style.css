@@ -7,4 +7,18 @@ ul, li {
     border: 1px solid black;
     padding: 5px 10px;
 }
+.font1 {
+    font-size: xx-large;
+    font-weight: bold;
+    background-color: rosybrown;
+}
 
+.font2 {
+    color: gray;
+}
+.coffeeWords {
+    color: red;
+    white-space: pre;
+
+    overflow-x: auto;
+}
