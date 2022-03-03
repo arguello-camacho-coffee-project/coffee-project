@@ -10,23 +10,18 @@
     <h1>Coffee!</h1>
 
     <form>
-        <label for="roast-selection"></label>
+        <label for="roast-selection">Roast</label>
         <select id="roast-selection">
             <option>light</option>
             <option>medium</option>
             <option>dark</option>
         </select>
+	    <label for="coffee-name">Coffee</label>
+	    <input type="text" name="coffee-name" id="coffee-name">
         <input id="submit" type="submit" />
     </form>
 
     <div>
-        <div>
-            <ul>
-<!--                <li>ID</li>-->
-                <li>NAME</li>
-                <li>ROAST</li>
-            </ul>
-        </div>
         <div id="coffees"></div>
     </div>
 
