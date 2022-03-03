@@ -36,7 +36,8 @@ function searchCoffees(usersInput) {
     var searchedRoast = coffeeName.value;
     var filteredCoffees = [];
     coffees.forEach(function (coffee) {
-        if (searchedRoast.includes(coffee.name)) {
+    var coffeeName = coffee.name;
+        if (coffeeName.toLowerCase().includes(searchedRoast.toLowerCase())) {
             filteredCoffees.push(coffee);
         }
     });
