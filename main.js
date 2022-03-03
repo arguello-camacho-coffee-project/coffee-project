@@ -44,6 +44,7 @@ function searchCoffees(usersInput) {
     div.innerHTML = renderCoffees(filteredCoffees);
 }
 
+
 // from http://www.ncausa.org/About-Coffee/Coffee-Roasts-Guide
 var coffees = [
     {id: 1, name: 'Light City', roast: 'light'},
