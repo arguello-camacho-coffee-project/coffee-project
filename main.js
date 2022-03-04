@@ -80,7 +80,7 @@ function newCoffeeInput(e){
         name: newCoffeeName.value,
         roast: newRoastSelection.value
     }
-    coffees.push(newCoffee);
+    coffees.unshift(newCoffee); //it was push... was just looking at unshift.
     // re-renders the coffees displayed in the div to contain added coffees
     div.innerHTML = renderCoffees(coffees);
 }
