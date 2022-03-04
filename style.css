@@ -30,9 +30,7 @@ section {
 .font2 {
     color: gray;
 }
-.coffeeWords {
-    color: red;
-    white-space: pre;
 
-    overflow-x: auto;
+#coffee{
+    margin-right: 10px;
 }
