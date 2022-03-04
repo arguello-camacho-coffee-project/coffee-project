@@ -1,3 +1,6 @@
+body {
+    background-image: url("pexels-viktoria-alipatova-2074130.jpg");
+}
 nav {
     height: 125px;
     position: relative;
@@ -31,6 +34,10 @@ section {
     color: gray;
 }
 
-#coffee{
+#coffees{
     margin-right: 10px;
+    color: white;
+}
+.coffeeHeader{
+    color: white;
 }
